@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "TabExporter",
+  "version": "1.0",
+  "description": "Exports all open tab URLs to a txt file and imports URLs from a txt file.",
+  "permissions": [
+    "tabs",
+    "downloads"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "icon.png"
+    },
+    "default_title": "Export/Import Tabs"
+  },
+  "author": "Suken",
+  "icons": {
+    "48": "icon.png"
+  }
+}
